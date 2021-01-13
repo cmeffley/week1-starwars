@@ -66,3 +66,24 @@ section {
   background-color: black;
   color: white;
 }
+
+.person-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 400px;
+}
+
+.person img {
+  height: 300px;
+}
+
+.person h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.person {
+  margin: 10px;
+  border: 1px solid orangered;
+}
